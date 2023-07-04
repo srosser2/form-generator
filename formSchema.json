@@ -1,0 +1,21 @@
+[
+    {
+        "type": "select",
+        "label": "What does your enquiry relate to?",
+        "key": "enquiryType",
+        "options": ["Incorrect Pay", "Missing Expense", "Change of Bank Details", "Change of Address", "Other"],
+        "validation": {"required": "This field is required"}
+    },
+    {
+        "type": "date",
+        "label": "Date of payslip being queried (if applicable)",
+        "key": "date",
+        "validation": {}
+    },
+    {
+        "type": "textarea",
+        "label": "Query",
+        "key": "query",
+        "validation": {"required": "This field is required"}
+    }
+]
